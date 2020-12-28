@@ -36,6 +36,8 @@
   ],
   "// These are ONLY bundled (eg included) in the umd builds": "",
   "bundledDependencies": [
+    "@emotion/is-prop-valid",
+    "@emotion/memoize",
     "tiny-css-prefixer"
   ],
   "scripts": {
@@ -101,6 +103,7 @@
     ]
   },
   "dependencies": {
+    "@emotion/is-prop-valid": "^1.0.0",
     "csstype": "^3.0.5",
     "tiny-css-prefixer": "^1.1.4"
   },
